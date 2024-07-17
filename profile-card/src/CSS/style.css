@@ -1,0 +1,86 @@
+body{
+    background-color: var(--background);
+    font-family: 'Kumbh Sans', sans-serif;
+    color: var(--text-color); 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao-perfil{
+    max-width: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 25px ;
+
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center; 
+}
+
+.profile-image .image{
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.name .name-bold{
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.city{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.info{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.info .numbers-information {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.info .numbers-information li{
+    padding: 15px;
+}
+
+
+
+
+.info .number-followers, .number-likes, .number-photos{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+ 
+   
+}
+
+
+
+
+
+
